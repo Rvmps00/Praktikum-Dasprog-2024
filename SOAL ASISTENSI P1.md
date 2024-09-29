@@ -1,65 +1,100 @@
-# Modul Praktikum Dasar Pemrograman
+# Asistensi Modul 1 Praktikum Dasar Pemrograman
 
 <img src="https://www.its.ac.id/komputer/wp-content/uploads/sites/28/2018/03/image10.png" alt="Teknik Komputer ITS" width="150" height="150">
 
 ## Deskripsi
 
-Modul Praktikum Dasar Pemrograman ini dirancang untuk membantu mahasiswa memahami dasar-dasar pemrograman komputer. Modul ini mencakup konsep-konsep dasar pemrograman seperti variabel, tipe data, struktur kontrol, dan fungsi-fungsi dasar dalam bahasa pemrograman yang digunakan. Modul ini juga dilengkapi dengan latihan-latihan praktis untuk memastikan pemahaman konsep-konsep tersebut.
+Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep dasar pemrograman dalam bahasa C dengan fokus pada penggunaan fungsi input-output dasar (scanf dan printf). Asistensi ini bertujuan untuk memberikan pengalaman langsung dalam menerapkan teori yang telah dipelajari di Praktikum.
 
-## Isi Modul
+## Soal Asistensi
 
-1. **Pengenalan Bahasa C** [IND](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P1_PengenalanBahasaC_IND.pdf) [ENG](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P1_IntroductiontoCLanguage_ENG.pdf)
-   - Tujuan
-   - Mengenal Bahasa C
-   - IDE (Integrated Development Environment)
-   - Membuat proyek baru pada IDE Code::Blocks
-   - Struktur Bahasa Pemrograman C
-   - Tipe Data dan Variabel
-   - Output dan Input
-2. **Perulangan, Percabangan, Array, dan String** [IND](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P2_PerulanganPercabanganArrayString_IND.pdf) [ENG](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P2_StringArrayBranchingLoop_ENG.pdf)
-   - Tujuan
-   - Ekspresi Logika dan Perbandingan
-   - Percabangan
-   - Perulangan
-   - Array
-   - String
-3. **Fungsi dan Rekursi** [IND](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P3_FungsidanRekursi_IND.pdf) [ENG](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P3_FunctionsandRecursion_ENG.pdf)
-   - Tujuan
-   - Fungsi
-   - Rekursi
-4. **Pointer,Struct, dan Algoritma** [IND](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P4_PointerdanStruct_IND.pdf) [ENG](https://lab-b300-miot.github.io/modul-praktikum-dasprog/P4_PointerandStruct_ENG.pdf)
-   - Tujuan
-   - Pointer
-   - Struct
-   - ALgoritma Sorting
-   - Algoritma Searching
+1. **Printf vs Scanf: Siapa yang Lebih Kuat?**
 
-## Persyaratan
+   Mari kenali kekuatan dua fungsi dasar ini! Kamu akan belajar perbedaan mendasar antara `printf` dan `scanf` dengan mengimplementasikannya dalam kode yang simpel namun powerful.
+   
+      __Input__: Satu baris yang berisi satu bilangan bulat.
 
-- Laptop atau komputer dengan akses ke perangkat lunak pemrograman C/C++.
-- Meginstall IDE/Text Editor (disarankan _Codeblocks_ atau _Visual Studio Code_).
-- Koneksi internet (untuk referensi tambahan dan pemecahan masalah).
+      __Output__: Tampilkan bilangan bulat tersebut.
 
-## Panduan Penggunaan
+   __Contoh Input__:`42`
 
-1. Unduh modul dari repositori modul praktikum.
-2. Baca dengan cermat setiap bagian modul dan perhatikan contoh-contoh yang diberikan.
-3. Kerjakan latihan-latihan praktis yang ada di akhir setiap bagian.
-4. Gunakan referensi tambahan jika diperlukan.
-5. Diskusikan pertanyaan atau kesulitan dengan dosen atau asisten praktikum Anda.
+   __Contoh Output__:`Angka yang dimasukkan: 42`
 
-## Kontribusi
 
-Kami sangat terbuka terhadap kontribusi dari semua pihak. Jika Anda ingin berkontribusi dengan memperbaiki atau melengkapi modul ini, silakan buat _pull request_ ke repositori modul praktikum kami.
+2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
-## Lisensi
+   Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
 
-Modul Praktikum Dasar Pemrograman ini dilisensikan di bawah [lisensi MIT](LICENSE).
+   __Input__:
+   
+      - Baris pertama berisi nama (string, tanpa spasi)
+      - Baris kedua berisi NRP (string)
+      - Baris ketiga berisi umur (bilangan bulat)
 
----
+     __Output__:
 
-Dengan menggunakan modul ini, kami harap Anda dapat memahami dasar-dasar pemrograman komputer dan menjadi pemrogram yang lebih mahir. Selamat belajar!
+      - Jika umur negatif, tampilkan pesan kesalahan: "Umur tidak boleh negatif. Silakan masukkan lagi."
+      - Tampilkan data dalam format berikut setelah input valid diterima:
+  
+              Nama: <nama>
+              NRP: <NRP>
+              Umur: <umur> tahun
 
-Jika Anda memiliki pertanyaan atau masukan, silakan hubungi admin
+      __Contoh Input 1__:
 
-Terima kasih atas partisipasi Anda dalam modul praktikum ini. Selamat belajar dan semoga sukses!
+         Budi
+         123456
+         -5
+         20
+
+      __Contoh Output 1__:
+
+         Umur tidak boleh negatif. Silakan masukkan lagi.
+         Nama: Budi
+         NRP: 123456
+         Umur: 20 tahun
+
+
+      __Contoh Input 2__:
+
+         Ana
+         654321
+         25
+
+
+      __Contoh Output 2__:
+
+         Nama: Ana
+         NRP: 654321
+         Umur: 25 tahun
+
+4. **Ganjil atau Genap: Siapakah Kamu?**
+
+   Cuma satu angka, tapi dia bisa menentukan apakah kamu berada di sisi ganjil atau genap. Buat program sederhana yang memutuskan apakah sebuah bilangan adalah ganjil atau genap. Yuk, buktikan kekuatan logika sederhana ini!
+
+   __Input__: Satu baris yang berisi satu bilangan bulat.
+
+   __Output__: Tampilkan pesan apakah bilangan tersebut ganjil atau genap dalam format berikut:
+      
+      - Jika genap: Angka <angka> adalah genap.
+      - Jika ganjil: Angka <angka> adalah ganjil.
+  
+      __Contoh Input 1__:
+
+         7
+
+      __Contoh Output 1__:
+
+         Angka 7 adalah ganjil.
+
+      __Contoh Input 2__:
+
+         8
+
+      __Contoh Output 2__:
+
+         Angka 8 adalah genap.
+
+
+SELAMAT MENGERJAKAN !!
+   
