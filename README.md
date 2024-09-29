@@ -1,100 +1,33 @@
-# Asistensi Modul 1 Praktikum Dasar Pemrograman
+# Asistensi Praktikum Dasar Pemrograman
 
-<img src="https://www.its.ac.id/komputer/wp-content/uploads/sites/28/2018/03/image10.png" alt="Teknik Komputer ITS" width="150" height="150">
+<img src="https://www.its.ac.id/komputer/wp-content/uploads/sites/28/2018/03/image10.png" alt="Teknik Komputer ITS" width="500" height="500">
 
 ## Deskripsi
 
-Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep dasar pemrograman dalam bahasa C dengan fokus pada penggunaan fungsi input-output dasar (scanf dan printf). Asistensi ini bertujuan untuk memberikan pengalaman langsung dalam menerapkan teori yang telah dipelajari di Praktikum.
+Soal-soal asistensi memiliki peran krusial dalam penguatan pemahaman materi yang telah diajarkan di setiap modul Praktikum Dasar Pemrograman. Berikut adalah beberapa alasan mengapa soal-soal ini sangat penting:
 
-## Soal Asistensi
+- Penerapan Teori ke Praktik:
 
-1. **Printf vs Scanf: Siapa yang Lebih Kuat?**
-
-   Mari kenali kekuatan dua fungsi dasar ini! Kamu akan belajar perbedaan mendasar antara `printf` dan `scanf` dengan mengimplementasikannya dalam kode yang simpel namun powerful.
-   
-      __Input__: Satu baris yang berisi satu bilangan bulat.
-
-      __Output__: Tampilkan bilangan bulat tersebut.
-
-   __Contoh Input__:`42`
-
-   __Contoh Output__:`Angka yang dimasukkan: 42`
-
-
-2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
-
-   Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
-
-   __Input__:
-   
-      - Baris pertama berisi nama (string, tanpa spasi)
-      - Baris kedua berisi NRP (string)
-      - Baris ketiga berisi umur (bilangan bulat)
-
-     __Output__:
-
-      - Jika umur negatif, tampilkan pesan kesalahan: "Umur tidak boleh negatif. Silakan masukkan lagi."
-      - Tampilkan data dalam format berikut setelah input valid diterima:
+  Soal-soal asistensi memberikan kesempatan bagi mahasiswa untuk menerapkan teori yang telah dipelajari dalam konteks yang nyata. Dengan berlatih melalui soal-soal ini, mahasiswa dapat menginternalisasi konsep-konsep pemrograman dan meningkatkan kemampuan mereka dalam menyelesaikan masalah secara praktis.
   
-              Nama: <nama>
-              NRP: <NRP>
-              Umur: <umur> tahun
-
-      __Contoh Input 1__:
-
-         Budi
-         123456
-         -5
-         20
-
-      __Contoh Output 1__:
-
-         Umur tidak boleh negatif. Silakan masukkan lagi.
-         Nama: Budi
-         NRP: 123456
-         Umur: 20 tahun
-
-
-      __Contoh Input 2__:
-
-         Ana
-         654321
-         25
-
-
-      __Contoh Output 2__:
-
-         Nama: Ana
-         NRP: 654321
-         Umur: 25 tahun
-
-4. **Ganjil atau Genap: Siapakah Kamu?**
-
-   Cuma satu angka, tapi dia bisa menentukan apakah kamu berada di sisi ganjil atau genap. Buat program sederhana yang memutuskan apakah sebuah bilangan adalah ganjil atau genap. Yuk, buktikan kekuatan logika sederhana ini!
-
-   __Input__: Satu baris yang berisi satu bilangan bulat.
-
-   __Output__: Tampilkan pesan apakah bilangan tersebut ganjil atau genap dalam format berikut:
-      
-      - Jika genap: Angka <angka> adalah genap.
-      - Jika ganjil: Angka <angka> adalah ganjil.
+- Memperkuat Pemahaman Konsep:
   
-      __Contoh Input 1__:
-
-         7
-
-      __Contoh Output 1__:
-
-         Angka 7 adalah ganjil.
-
-      __Contoh Input 2__:
-
-         8
-
-      __Contoh Output 2__:
-
-         Angka 8 adalah genap.
+   Melalui soal-soal yang bervariasi, mahasiswa dapat mengeksplorasi dan memperdalam pemahaman mereka mengenai berbagai konsep dasar dalam pemrograman. Soal-soal ini dirancang untuk menantang mereka agar berpikir kritis dan kreatif, sekaligus membangun fondasi yang kuat untuk pemahaman yang lebih kompleks di masa mendatang.
 
 
-SELAMAT MENGERJAKAN !!
-   
+- Latihan Keterampilan Pemecahan Masalah:
+  
+  Pemrograman adalah seni memecahkan masalah. Dengan mengerjakan soal-soal asistensi, mahasiswa diajak untuk berpikir logis dan sistematis dalam menghadapi berbagai tantangan. Mereka belajar untuk menganalisis masalah, mencari solusi, dan mengimplementasikannya dalam kode, yang merupakan keterampilan penting di dunia pemrograman.
+
+- Membangun Kepercayaan Diri:
+  
+   Soal-soal asistensi yang dirancang dengan berbagai tingkat kesulitan memberikan kesempatan bagi mahasiswa untuk berlatih dan membangun kepercayaan diri mereka. Saat mereka berhasil menyelesaikan soal-soal tersebut, mahasiswa merasa lebih siap dan percaya diri untuk menghadapi tugas yang lebih menantang di modul-modul selanjutnya.
+
+- Umpan Balik Langsung:
+
+   Asistensi menyediakan kesempatan bagi mahasiswa untuk mendapatkan umpan balik langsung dari dosen atau asisten dosen. Melalui umpan balik ini, mereka dapat mengidentifikasi kesalahan, memahami konsep yang belum dikuasai, dan memperbaiki kekurangan dalam pemahaman mereka.
+  
+- Keterlibatan Aktif dalam Pembelajaran:
+
+   Soal-soal asistensi mendorong keterlibatan aktif mahasiswa dalam proses belajar. Mereka didorong untuk berpartisipasi, berdiskusi, dan bertanya, yang dapat meningkatkan pengalaman belajar secara keseluruhan.
+
