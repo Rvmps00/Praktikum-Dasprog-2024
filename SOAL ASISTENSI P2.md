@@ -1,4 +1,4 @@
-# Asistensi Modul 1 Praktikum Dasar Pemrograman
+# Asistensi Modul 2 Praktikum Dasar Pemrograman
 
 <img src="https://www.its.ac.id/komputer/wp-content/uploads/sites/28/2018/03/image10.png" alt="Teknik Komputer ITS" width="150" height="150">
 
@@ -59,6 +59,24 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Total Setelah Diskon: Rp8.100.000
          Kode Promo: DISKON50
          Total Setelah Promo: Rp4.050.000
+
+   __Contoh Input 2__
+
+         Nama: Ana Dewi
+         Jenis tiket: Reguler
+         Jumlah tiket: 3
+         Kode promo: 
+
+   __Contoh Output 2__:
+
+         Faktur Pemesanan Tiket Konser:
+         Nama: Ana Dewi
+         Jenis Tiket: Reguler
+         Jumlah Tiket: 3
+         Total Harga Sebelum Diskon: Rp2.250.000
+         Tidak ada diskon pembelian lebih dari 5 tiket.
+         Total Setelah Diskon: Rp2.250.000
+         Tidak ada kode promo.
 
 1. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
