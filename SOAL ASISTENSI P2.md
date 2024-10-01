@@ -78,7 +78,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Total Setelah Diskon: Rp2.250.000
          Tidak ada kode promo.
 
-1. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
+2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
    Anda diminta membuat program yang mengelompokkan nilai mata kuliah mahasiswa berdasarkan beberapa kriteria. Program ini harus menerima input berupa NIM, nama, dan nilai dari 5 mata kuliah. Program kemudian akan menghitung nilai rata-rata, menampilkan hasil dari setiap mata kuliah, dan memberikan keterangan apakah mahasiswa tersebut lulus atau tidak berdasarkan rata-rata nilai. Mahasiswa dinyatakan lulus jika rata-rata nilainya ≥ 60 dan tidak ada nilai yang di bawah 50.
 
@@ -124,33 +124,43 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Rata-rata: 63.0
          Status: TIDAK LULUS
 
-4. **Ganjil atau Genap: Siapakah Kamu?**
+3. **Ganjil atau Genap: Siapakah Kamu?**
 
-   Cuma satu angka, tapi dia bisa menentukan apakah kamu berada di sisi ganjil atau genap. Buat program sederhana yang memutuskan apakah sebuah bilangan adalah ganjil atau genap. Yuk, buktikan kekuatan logika sederhana ini!
+   Anda diminta membuat program pengelolaan inventaris toko yang mengelola barang yang dijual dan memberikan diskon bertingkat berdasarkan jumlah barang yang dibeli. Program ini akan menerima input berupa nama barang, jumlah barang, dan harga per unit barang. Program akan menghitung total harga barang yang dibeli dan memberikan diskon sesuai dengan kriteria berikut:
 
-   __Input__: Satu baris yang berisi satu bilangan bulat.
+   Kriteria Diskon:
+   
+   - Tidak ada diskon jika jumlah barang yang dibeli ≤ 10.
+   - Diskon 5% jika jumlah barang > 10 dan ≤ 20.
+   - Diskon 10% jika jumlah barang > 20 dan ≤ 50.
+   - Diskon 15% jika jumlah barang > 50.
+   
+   __Input__:
+   
+   - Nama barang (string).
+   - Jumlah barang yang dibeli (integer).
+   - Harga per unit barang (float).
 
-   __Output__: Tampilkan pesan apakah bilangan tersebut ganjil atau genap dalam format berikut:
-      
-      - Jika genap: Angka <angka> adalah genap.
-      - Jika ganjil: Angka <angka> adalah ganjil.
+   __Output__:
+   
+   - Tampilkan nama barang.
+   - Tampilkan jumlah barang yang dibeli.
+   - Tampilkan harga total sebelum diskon.
+   - Tampilkan diskon yang didapat.
+   - Tampilkan total harga setelah diskon.
   
-      __Contoh Input 1__:
+      __Contoh Input__:
 
-         7
+         Nama barang: Laptop
+         Jumlah barang: 25
+         Harga per unit: 7500000
 
-      __Contoh Output 1__:
+      __Contoh Output__:
 
-         Angka 7 adalah ganjil.
-
-      __Contoh Input 2__:
-
-         8
-
-      __Contoh Output 2__:
-
-         Angka 8 adalah genap.
-
+         Nama Barang: Laptop
+         Jumlah Barang: 25
+         Harga Total Sebelum Diskon: Rp187.500.000
+         Diskon: 10%
+         Total Setelah Diskon: Rp168.750.000
 
 SELAMAT MENGERJAKAN !!
-   
