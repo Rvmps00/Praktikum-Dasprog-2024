@@ -28,14 +28,37 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
    - Jumlah tiket harus lebih dari 0 dan tidak lebih dari 10.
    - Kode promo bersifat opsional, tetapi jika diisi harus valid, yaitu DISKON50.
 
-      __Input__: Satu baris yang berisi satu bilangan bulat.
+   __Input__:
+   - Nama pengguna (string).
+   - Jenis tiket yang dipilih (string: VIP, Reguler, Economy).
+   - Jumlah tiket yang dibeli (integer).
+   - Kode promo (opsional) (string).   
+ 
+   __Output__:
+   - Tampilkan nama pengguna.
+   - Tampilkan jenis tiket yang dipilih.
+   - Tampilkan jumlah tiket yang dibeli.
+   - Tampilkan total harga tiket sebelum dan setelah diskon.
+   - Jika ada kode promo, tampilkan harga setelah diskon promo.
 
-      __Output__: Tampilkan bilangan bulat tersebut.
+   __Contoh Input 1__:
 
-   __Contoh Input__:`42`
+         Nama: Budi Setiawan
+         Jenis tiket: VIP
+         Jumlah tiket: 6
+         Kode promo: DISKON50
 
-   __Contoh Output__:`Angka yang dimasukkan: 42`
+   __Contoh Output 1__:
 
+         Faktur Pemesanan Tiket Konser:
+         Nama: Budi Setiawan
+         Jenis Tiket: VIP
+         Jumlah Tiket: 6
+         Total Harga Sebelum Diskon: Rp9.000.000
+         Diskon Pembelian Lebih Dari 5 Tiket: 10%
+         Total Setelah Diskon: Rp8.100.000
+         Kode Promo: DISKON50
+         Total Setelah Promo: Rp4.050.000
 
 1. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
