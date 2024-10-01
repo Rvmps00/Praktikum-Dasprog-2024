@@ -4,7 +4,7 @@
 
 ## Deskripsi
 
-Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep ekspresi logika, perbandingan, percabangan (if, if-else, if-else-if), nested if, looping, array, dan string dalam bahasa C. Dengan memberikan tantangan yang lebih kompleks dibandingkan soal di modul, asistensi ini bertujuan untuk memperdalam pemahaman mahasiswa dalam menerapkan konsep-konsep tersebut dalam skenario yang lebih realistis dan bervariasi. Melalui sesi asistensi ini, mahasiswa diharapkan mampu mengembangkan kemampuan analisis dan problem-solving yang lebih mendalam dalam menyusun alur logika program serta menyelesaikan masalah pemrograman yang lebih rumit.
+Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep ekspresi logika, perbandingan, percabangan (if, if-else, if-else-if), nested if, looping, array, dan string dalam bahasa C. Dengan memberikan tantangan yang lebih kompleks dibandingkan soal di modul, asistensi ini bertujuan untuk memperdalam pemahaman mahasiswa dalam menerapkan konsep-konsep tersebut dalam skenario yang lebih realistis dan bervariasi. Melalui sesi asistensi ini, Praktikan diharapkan mampu mengembangkan kemampuan analisis dan problem-solving yang lebih mendalam dalam menyusun alur logika program serta menyelesaikan masalah pemrograman yang lebih rumit.
 
 ## Soal Asistensi
 
