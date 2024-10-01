@@ -10,8 +10,24 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 1. **Printf vs Scanf: Siapa yang Lebih Kuat?**
 
-   Mari kenali kekuatan dua fungsi dasar ini! Kamu akan belajar perbedaan mendasar antara `printf` dan `scanf` dengan mengimplementasikannya dalam kode yang simpel namun powerful.
-   
+   Anda diminta membuat program sistem pemesanan tiket konser. Program ini harus mampu menerima nama pengguna, jenis tiket yang dipilih, dan jumlah tiket yang ingin dibeli. Sistem juga harus memvalidasi input pengguna, menghitung total harga tiket, memberikan diskon berdasarkan kondisi tertentu, dan mencetak faktur yang rapi.
+
+   Ketentuan Tiket:
+
+   Terdapat tiga jenis tiket:
+   - VIP dengan harga Rp1.500.000 per tiket
+   - Reguler dengan harga Rp750.000 per tiket
+   - Economy dengan harga Rp300.000 per tiket
+   - Jika pengguna membeli lebih dari 5 tiket, mereka akan mendapatkan diskon 10% dari total harga.
+   - Jika pengguna memasukkan kode promo DISKON50, mereka akan mendapatkan diskon tambahan 50% dari total harga setelah diskon pembelian di atas 5 tiket.
+
+   Validasi:
+
+   - Nama tidak boleh kosong atau lebih dari 50 karakter.
+   - Jenis tiket harus salah satu dari VIP, Reguler, atau Economy.
+   - Jumlah tiket harus lebih dari 0 dan tidak lebih dari 10.
+   - Kode promo bersifat opsional, tetapi jika diisi harus valid, yaitu DISKON50.
+
       __Input__: Satu baris yang berisi satu bilangan bulat.
 
       __Output__: Tampilkan bilangan bulat tersebut.
@@ -21,7 +37,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
    __Contoh Output__:`Angka yang dimasukkan: 42`
 
 
-2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
+1. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
    Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
 
