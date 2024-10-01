@@ -4,14 +4,14 @@
 
 ## Deskripsi
 
-Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep dasar pemrograman dalam bahasa C dengan fokus pada penggunaan fungsi input-output dasar (scanf dan printf). Asistensi ini bertujuan untuk memberikan pengalaman langsung dalam menerapkan teori yang telah dipelajari di Praktikum.
+Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep ekspresi logika, perbandingan, percabangan (if, if-else, if-else-if), nested if, looping, array, dan string dalam bahasa C. Dengan memberikan tantangan yang lebih kompleks dibandingkan soal di modul, asistensi ini bertujuan untuk memperdalam pemahaman mahasiswa dalam menerapkan konsep-konsep tersebut dalam skenario yang lebih realistis dan bervariasi. Melalui sesi asistensi ini, mahasiswa diharapkan mampu mengembangkan kemampuan analisis dan problem-solving yang lebih mendalam dalam menyusun alur logika program serta menyelesaikan masalah pemrograman yang lebih rumit.
 
 ## Soal Asistensi
 
-1. **Printf vs Scanf: Siapa yang Lebih Kuat?**
+1. **Pesta Tiket Konser! Pesan Banyak, Diskon Melayang!**
 
-   Anda diminta membuat program sistem pemesanan tiket konser. Program ini harus mampu menerima nama pengguna, jenis tiket yang dipilih, dan jumlah tiket yang ingin dibeli. Sistem juga harus memvalidasi input pengguna, menghitung total harga tiket, memberikan diskon berdasarkan kondisi tertentu, dan mencetak faktur yang rapi.
-
+   Siap-siap datang ke konser favoritmu dengan sistem pemesanan tiket otomatis ini! Beli tiket lebih banyak dan dapatkan diskon gila-gilaan, ditambah kode promo spesial buat potongan harga ekstra. Yuk cek seberapa besar diskon yang bisa kamu dapatkan!
+   
    Ketentuan Tiket:
 
    Terdapat tiga jenis tiket:
@@ -78,9 +78,9 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Total Setelah Diskon: Rp2.250.000
          Tidak ada kode promo.
 
-2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
+3. **Lulus atau Tidak? Cek Nilai Ujianmu di Sini!**
 
-   Anda diminta membuat program yang mengelompokkan nilai mata kuliah mahasiswa berdasarkan beberapa kriteria. Program ini harus menerima input berupa NIM, nama, dan nilai dari 5 mata kuliah. Program kemudian akan menghitung nilai rata-rata, menampilkan hasil dari setiap mata kuliah, dan memberikan keterangan apakah mahasiswa tersebut lulus atau tidak berdasarkan rata-rata nilai. Mahasiswa dinyatakan lulus jika rata-rata nilainya ≥ 60 dan tidak ada nilai yang di bawah 50.
+   AProgram ini mengelompokkan nilai mata kuliah mahasiswa dan menentukan apakah kamu layak lulus berdasarkan nilai rata-rata dan kriteria lulus yang ketat. Siapkan nilaimu dan cek sekarang!
 
    Ketentuan Nilai:
    
@@ -124,9 +124,9 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Rata-rata: 63.0
          Status: TIDAK LULUS
 
-3. **Ganjil atau Genap: Siapakah Kamu?**
+4. **Crazy Deals: Diskon Gede-Gedean di Toko Elektronikmu!**
 
-   Anda diminta membuat program pengelolaan inventaris toko yang mengelola barang yang dijual dan memberikan diskon bertingkat berdasarkan jumlah barang yang dibeli. Program ini akan menerima input berupa nama barang, jumlah barang, dan harga per unit barang. Program akan menghitung total harga barang yang dibeli dan memberikan diskon sesuai dengan kriteria berikut:
+   Dapatkan penawaran diskon gila-gilaan dengan jumlah barang yang kamu beli. Semakin banyak, semakin besar diskonmu! Masukkan pesananmu dan hitung diskon yang bakal kamu dapatkan.
 
    Kriteria Diskon:
    
