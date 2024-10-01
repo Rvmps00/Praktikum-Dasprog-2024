@@ -80,50 +80,49 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 1. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
-   Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
+   Anda diminta membuat program yang mengelompokkan nilai mata kuliah mahasiswa berdasarkan beberapa kriteria. Program ini harus menerima input berupa NIM, nama, dan nilai dari 5 mata kuliah. Program kemudian akan menghitung nilai rata-rata, menampilkan hasil dari setiap mata kuliah, dan memberikan keterangan apakah mahasiswa tersebut lulus atau tidak berdasarkan rata-rata nilai. Mahasiswa dinyatakan lulus jika rata-rata nilainya ≥ 60 dan tidak ada nilai yang di bawah 50.
 
-   __Input__:
+   Ketentuan Nilai:
    
-      - Baris pertama berisi nama (string, tanpa spasi)
-      - Baris kedua berisi NRP (string)
-      - Baris ketiga berisi umur (bilangan bulat)
+   Mahasiswa dinyatakan LULUS jika:
+   - Rata-rata nilai dari 5 mata kuliah ≥ 60, dan Tidak ada satu pun nilai mata kuliah di bawah 50.
+   - Jika ada mata kuliah dengan nilai di bawah 50, mahasiswa TIDAK LULUS meskipun nilai rata-rata ≥ 60.
+
+     __Input__:
+      
+     - NIM mahasiswa (string).
+     - Nama mahasiswa (string).
+     - Nilai dari 5 mata kuliah (integer).
 
      __Output__:
 
-      - Jika umur negatif, tampilkan pesan kesalahan: "Umur tidak boleh negatif. Silakan masukkan lagi."
-      - Tampilkan data dalam format berikut setelah input valid diterima:
-  
-              Nama: <nama>
-              NRP: <NRP>
-              Umur: <umur> tahun
+     - Tampilkan NIM dan nama mahasiswa.
+     - Tampilkan nilai dari setiap mata kuliah.
+     - Tampilkan nilai rata-rata dari 5 mata kuliah.
+     - Tampilkan status kelulusan mahasiswa (LULUS atau TIDAK LULUS).
 
-      __Contoh Input 1__:
+      __Contoh Input__:
 
-         Budi
-         123456
-         -5
-         20
+         NIM: 12345678
+         Nama: Budi Setiawan
+         Nilai Mata Kuliah 1: 70
+         Nilai Mata Kuliah 2: 55
+         Nilai Mata Kuliah 3: 65
+         Nilai Mata Kuliah 4: 80
+         Nilai Mata Kuliah 5: 45
 
       __Contoh Output 1__:
 
-         Umur tidak boleh negatif. Silakan masukkan lagi.
-         Nama: Budi
-         NRP: 123456
-         Umur: 20 tahun
-
-
-      __Contoh Input 2__:
-
-         Ana
-         654321
-         25
-
-
-      __Contoh Output 2__:
-
-         Nama: Ana
-         NRP: 654321
-         Umur: 25 tahun
+         NIM: 12345678
+         Nama: Budi Setiawan
+         Nilai Mata Kuliah:
+         1: 70
+         2: 55
+         3: 65
+         4: 80
+         5: 45
+         Rata-rata: 63.0
+         Status: TIDAK LULUS
 
 4. **Ganjil atau Genap: Siapakah Kamu?**
 
