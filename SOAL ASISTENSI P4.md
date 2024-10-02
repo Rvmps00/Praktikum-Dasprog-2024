@@ -11,6 +11,28 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 1. **Hack the Matrix: Simulasi Sistem Manajemen Data Kompleks dengan C**
 
    Neo ingin menavigasi sistem Matrix dengan cara yang lebih efisien dan aman. Sebagai programmer ulung, kamu diminta untuk membuat sistem manajemen data yang sangat efisien menggunakan berbagai teknik pemrograman dalam bahasa C. Program yang kamu buat harus bisa menangani database dinamis yang menyimpan data orang-orang dalam Matrix, memproses data tersebut, dan menampilkan informasi yang relevan.
+
+   Kamu diminta untuk melakukan beberapa hal berikut:
+
+   - Struktur Data Dinamis: Buatlah struct untuk menyimpan informasi pengguna di Matrix yang terdiri dari nama, ID, level akses, dan status.
+
+      - Nama: string yang menyimpan nama pengguna.
+      - ID: integer unik yang mewakili setiap pengguna.
+      - Level Akses: integer yang menyatakan hak akses pengguna (misalnya, dari level 1 sampai 5).
+      - Status: string yang bisa berisi "Active" atau "Inactive".
+      - Dynamic Memory Allocation: Data pengguna disimpan dalam array dinamis. Program harus dapat menerima data untuk N pengguna di awal, dan memungkinkan pengguna memperbarui jumlah data yang disimpan secara dinamis menggunakan realloc.
+
+   - Sorting dan Searching: Implementasikan algoritma sorting (gunakan quick sort) untuk mengurutkan data berdasarkan ID. Selain itu, implementasikan pencarian binary search untuk menemukan pengguna berdasarkan ID.
+
+   - File Handling: Simpan data yang telah diurutkan ke dalam file "database_matrix.txt". Implementasikan juga fitur untuk membaca data dari file jika ada.
+
+   - Pointer dan Double Pointer: Gunakan pointer dan double pointer untuk menangani array dinamis dan untuk memproses string dan manipulasi data lainnya.
+
+   - Fungsi dan Rekursi: Implementasikan fungsi rekursif untuk menghitung jumlah total pengguna dengan status "Active".
+
+   - Manipulasi Bit: Implementasikan fitur untuk mengenkripsi data ID menggunakan manipulasi bit (misalnya dengan melakukan operasi XOR dengan sebuah key) sebelum disimpan ke file.
+
+   - Error Handling: Pastikan program memiliki error handling untuk kondisi seperti alokasi memori yang gagal atau file yang tidak ditemukan.
    
       __Input__: Satu baris yang berisi satu bilangan bulat.
 
@@ -21,7 +43,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
    __Contoh Output__:`Angka yang dimasukkan: 42`
 
 
-2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
+3. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
    Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
 
