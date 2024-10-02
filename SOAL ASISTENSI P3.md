@@ -4,7 +4,7 @@
 
 ## Deskripsi
 
-Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep dasar pemrograman dalam bahasa C dengan fokus pada penggunaan fungsi input-output dasar (scanf dan printf). Asistensi ini bertujuan untuk memberikan pengalaman langsung dalam menerapkan teori yang telah dipelajari di Praktikum.
+Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahasiswa memahami konsep pemrograman lanjutan dalam bahasa C dengan fokus pada penerapan ekspresi logika, struktur percabangan (if, if else, dan nested if), serta penggunaan perulangan (looping). Selain itu, soal-soal ini juga mencakup implementasi array, string, dan rekursi untuk memperdalam pemahaman mahasiswa dalam mengelola data dan menyusun algoritma yang lebih kompleks. Tujuan dari asistensi ini adalah memberikan mahasiswa pengalaman langsung dalam mengaplikasikan teori yang telah dipelajari, serta meningkatkan keterampilan pemecahan masalah dalam konteks pemrograman.
 
 ## Soal Asistensi
 
