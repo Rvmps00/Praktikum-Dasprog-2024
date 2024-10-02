@@ -8,9 +8,9 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 ## Soal Asistensi
 
-1. **Printf vs Scanf: Siapa yang Lebih Kuat?**
+1. **Hack the Matrix: Simulasi Sistem Manajemen Data Kompleks dengan C**
 
-   Mari kenali kekuatan dua fungsi dasar ini! Kamu akan belajar perbedaan mendasar antara `printf` dan `scanf` dengan mengimplementasikannya dalam kode yang simpel namun powerful.
+   Neo ingin menavigasi sistem Matrix dengan cara yang lebih efisien dan aman. Sebagai programmer ulung, kamu diminta untuk membuat sistem manajemen data yang sangat efisien menggunakan berbagai teknik pemrograman dalam bahasa C. Program yang kamu buat harus bisa menangani database dinamis yang menyimpan data orang-orang dalam Matrix, memproses data tersebut, dan menampilkan informasi yang relevan.
    
       __Input__: Satu baris yang berisi satu bilangan bulat.
 
