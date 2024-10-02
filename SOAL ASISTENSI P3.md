@@ -1,4 +1,4 @@
-# Asistensi Modul 1 Praktikum Dasar Pemrograman
+# Asistensi Modul 3 Praktikum Dasar Pemrograman
 
 <img src="https://www.its.ac.id/komputer/wp-content/uploads/sites/28/2018/03/image10.png" alt="Teknik Komputer ITS" width="150" height="150">
 
@@ -8,17 +8,17 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 ## Soal Asistensi
 
-1. **Printf vs Scanf: Siapa yang Lebih Kuat?**
+1. **Pecahkan Deret Fibonacci: Pencarian Elemen ke-N**
 
-   Mari kenali kekuatan dua fungsi dasar ini! Kamu akan belajar perbedaan mendasar antara `printf` dan `scanf` dengan mengimplementasikannya dalam kode yang simpel namun powerful.
+   Diberikan sebuah bilangan N, Anda diminta untuk mencari elemen ke-N dalam deret Fibonacci menggunakan rekursi.
    
-      __Input__: Satu baris yang berisi satu bilangan bulat.
+      __Input__: Sebuah bilangan bulat N.
 
-      __Output__: Tampilkan bilangan bulat tersebut.
+      __Output__: Tampilkan elemen ke-N dalam deret Fibonacci.
 
-   __Contoh Input__:`42`
+   __Contoh Input__:`Masukkan nilai N: 10`
 
-   __Contoh Output__:`Angka yang dimasukkan: 42`
+   __Contoh Output__:`Elemen Fibonacci ke-10: 55`
 
 
 2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
