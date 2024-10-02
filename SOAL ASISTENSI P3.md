@@ -25,7 +25,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Elemen Fibonacci ke-10: 55
 
 
-3. **Pencarian Elemen Terkecil: Temukan Nilai Minimum dalam Array Rekursif**
+2. **Pencarian Elemen Terkecil: Temukan Nilai Minimum dalam Array Rekursif**
 
    Buat program yang menerima sebuah array N bilangan bulat dan menemukan elemen terkecil menggunakan rekursi.
 
@@ -48,33 +48,22 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Elemen terkecil: 1
 
 
-4. **Ganjil atau Genap: Siapakah Kamu?**
+3. **Deteksi Palindrome: Periksa Apakah String adalah Palindrome**
 
-   Cuma satu angka, tapi dia bisa menentukan apakah kamu berada di sisi ganjil atau genap. Buat program sederhana yang memutuskan apakah sebuah bilangan adalah ganjil atau genap. Yuk, buktikan kekuatan logika sederhana ini!
+   Buat program yang menerima sebuah string dan memeriksa apakah string tersebut adalah palindrome (membaca sama dari depan maupun belakang). Gunakan rekursi untuk memeriksa palindrome.
+   
+   __Input__: Sebuah string.
 
-   __Input__: Satu baris yang berisi satu bilangan bulat.
-
-   __Output__: Tampilkan pesan apakah bilangan tersebut ganjil atau genap dalam format berikut:
+   __Output__: 
       
-      - Jika genap: Angka <angka> adalah genap.
-      - Jika ganjil: Angka <angka> adalah ganjil.
+      - Tampilkan "YA" jika string adalah palindrome, atau "TIDAK" jika bukan.
   
-      __Contoh Input 1__:
+      __Contoh Input__:
 
-         7
+         Masukkan string: radar
 
-      __Contoh Output 1__:
+      __Contoh Output__:
 
-         Angka 7 adalah ganjil.
-
-      __Contoh Input 2__:
-
-         8
-
-      __Contoh Output 2__:
-
-         Angka 8 adalah genap.
-
+         YA
 
 SELAMAT MENGERJAKAN !!
-   
