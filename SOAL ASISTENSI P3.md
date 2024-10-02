@@ -25,52 +25,28 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Elemen Fibonacci ke-10: 55
 
 
-3. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
+3. **Pencarian Elemen Terkecil: Temukan Nilai Minimum dalam Array Rekursif**
 
-   Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
+   Buat program yang menerima sebuah array N bilangan bulat dan menemukan elemen terkecil menggunakan rekursi.
 
    __Input__:
    
-      - Baris pertama berisi nama (string, tanpa spasi)
-      - Baris kedua berisi NRP (string)
-      - Baris ketiga berisi umur (bilangan bulat)
+      - Sebuah bilangan bulat N.
+      - Array berisi N bilangan bulat.
 
      __Output__:
 
-      - Jika umur negatif, tampilkan pesan kesalahan: "Umur tidak boleh negatif. Silakan masukkan lagi."
-      - Tampilkan data dalam format berikut setelah input valid diterima:
-  
-              Nama: <nama>
-              NRP: <NRP>
-              Umur: <umur> tahun
+      - Tampilkan elemen terkecil dalam array.
 
-      __Contoh Input 1__:
+      __Contoh Input__:
 
-         Budi
-         123456
-         -5
-         20
+         Masukkan jumlah elemen N: 5
+         Masukkan elemen array: 12 5 7 1 19
 
-      __Contoh Output 1__:
+      __Contoh Output__:
 
-         Umur tidak boleh negatif. Silakan masukkan lagi.
-         Nama: Budi
-         NRP: 123456
-         Umur: 20 tahun
+         Elemen terkecil: 1
 
-
-      __Contoh Input 2__:
-
-         Ana
-         654321
-         25
-
-
-      __Contoh Output 2__:
-
-         Nama: Ana
-         NRP: 654321
-         Umur: 25 tahun
 
 4. **Ganjil atau Genap: Siapakah Kamu?**
 
