@@ -83,54 +83,39 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          
          Data disimpan ke dalam file "database_matrix.txt" dengan ID yang telah dienkripsi.
 
-3. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
+2. **Matrix Mastermind: Operasi Matriks dengan Pointer ke Pointer**
 
-   Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
+   Buat program yang melakukan operasi penjumlahan dan perkalian dua matriks dinamis yang dialokasikan menggunakan pointer ke pointer (double pointer). Program harus meminta ukuran matriks dan mengelola memori secara dinamis. Pastikan hasil operasi ditampilkan dengan benar.
 
    __Input__:
    
-      - Baris pertama berisi nama (string, tanpa spasi)
-      - Baris kedua berisi NRP (string)
-      - Baris ketiga berisi umur (bilangan bulat)
+      - Ukuran matriks (baris dan kolom).
+      - Elemen-elemen matriks A dan B.
 
      __Output__:
 
-      - Jika umur negatif, tampilkan pesan kesalahan: "Umur tidak boleh negatif. Silakan masukkan lagi."
-      - Tampilkan data dalam format berikut setelah input valid diterima:
-  
-              Nama: <nama>
-              NRP: <NRP>
-              Umur: <umur> tahun
+      - Hasil penjumlahan dan perkalian matriks.
 
-      __Contoh Input 1__:
+      __Contoh Input/Output__:
 
-         Budi
-         123456
-         -5
-         20
+         Masukkan ukuran matriks (baris dan kolom): 2 2
+         Masukkan elemen matriks A:
+         1 2
+         3 4
+         Masukkan elemen matriks B:
+         5 6
+         7 8
+         
+         Hasil Penjumlahan:
+         6 8
+         10 12
+         
+         Hasil Perkalian:
+         19 22
+         43 50
 
-      __Contoh Output 1__:
-
-         Umur tidak boleh negatif. Silakan masukkan lagi.
-         Nama: Budi
-         NRP: 123456
-         Umur: 20 tahun
-
-
-      __Contoh Input 2__:
-
-         Ana
-         654321
-         25
-
-
-      __Contoh Output 2__:
-
-         Nama: Ana
-         NRP: 654321
-         Umur: 25 tahun
-
-4. **Ganjil atau Genap: Siapakah Kamu?**
+       
+3. **Ganjil atau Genap: Siapakah Kamu?**
 
    Cuma satu angka, tapi dia bisa menentukan apakah kamu berada di sisi ganjil atau genap. Buat program sederhana yang memutuskan apakah sebuah bilangan adalah ganjil atau genap. Yuk, buktikan kekuatan logika sederhana ini!
 
