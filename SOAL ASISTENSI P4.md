@@ -47,10 +47,41 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
       - Total pengguna dengan status "Active".
       - Penyimpanan data ke file dengan `ID` yang telah dienkripsi.
 
-   __Contoh Input__:`42`
+   __Contoh Input__:
 
-   __Contoh Output__:`Angka yang dimasukkan: 42`
+         Masukkan jumlah pengguna: 3
+         Masukkan data pengguna:
+         Nama: Neo
+         ID: 1001
+         Level Akses: 5
+         Status: Active
+         
+         Nama: Trinity
+         ID: 1003
+         Level Akses: 4
+         Status: Active
+         
+         Nama: Morpheus
+         ID: 1002
+         Level Akses: 3
+         Status: Inactive
+         
+         Pilih aksi:
+         1. Urutkan data berdasarkan ID
+         2. Cari pengguna berdasarkan ID
+         3. Hitung jumlah pengguna Active
+         4. Simpan data ke file
+         5. Baca data dari file
+         Pilihan: 1
 
+   __Contoh Output__:
+
+         Data setelah diurutkan berdasarkan ID:
+         Nama: Neo, ID: 1001, Level Akses: 5, Status: Active
+         Nama: Morpheus, ID: 1002, Level Akses: 3, Status: Inactive
+         Nama: Trinity, ID: 1003, Level Akses: 4, Status: Active
+         
+         Data disimpan ke dalam file "database_matrix.txt" dengan ID yang telah dienkripsi.
 
 3. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
