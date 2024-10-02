@@ -115,33 +115,28 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          43 50
 
        
-3. **Ganjil atau Genap: Siapakah Kamu?**
+3. **Recursive Tower: Implementasi Tower of Hanoi dengan Rekursi**
 
-   Cuma satu angka, tapi dia bisa menentukan apakah kamu berada di sisi ganjil atau genap. Buat program sederhana yang memutuskan apakah sebuah bilangan adalah ganjil atau genap. Yuk, buktikan kekuatan logika sederhana ini!
+   Buat program yang menyelesaikan masalah Tower of Hanoi dengan menggunakan rekursi. Program harus menampilkan setiap langkah pemindahan cakram dari satu tiang ke tiang lain. Program juga harus menghitung berapa banyak langkah yang dibutuhkan untuk memindahkan seluruh cakram.
 
-   __Input__: Satu baris yang berisi satu bilangan bulat.
-
-   __Output__: Tampilkan pesan apakah bilangan tersebut ganjil atau genap dalam format berikut:
-      
-      - Jika genap: Angka <angka> adalah genap.
-      - Jika ganjil: Angka <angka> adalah ganjil.
-  
-      __Contoh Input 1__:
-
-         7
-
-      __Contoh Output 1__:
-
-         Angka 7 adalah ganjil.
-
-      __Contoh Input 2__:
-
-         8
-
-      __Contoh Output 2__:
-
-         Angka 8 adalah genap.
-
-
-SELAMAT MENGERJAKAN !!
+   __Input__:
    
+      - Jumlah cakram.
+
+   __Output__:
+      
+      - Langkah-langkah pemindahan cakram dan total langkah.
+
+      __Contoh Input/Output__:
+
+         Masukkan jumlah cakram: 3
+         
+         Langkah-langkah pemindahan:
+         Pindahkan cakram dari tiang A ke tiang C
+         Pindahkan cakram dari tiang A ke tiang B
+         Pindahkan cakram dari tiang C ke tiang B
+         ...
+         Total langkah: 7
+
+   
+SELAMAT MENGERJAKAN!
