@@ -16,12 +16,16 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
       __Output__: Tampilkan elemen ke-N dalam deret Fibonacci.
 
-   __Contoh Input__:`Masukkan nilai N: 10`
+   __Contoh Input__:
 
-   __Contoh Output__:`Elemen Fibonacci ke-10: 55`
+         Masukkan nilai N: 10
+
+   __Contoh Output__:
+
+         Elemen Fibonacci ke-10: 55
 
 
-2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
+3. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
    Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
 
