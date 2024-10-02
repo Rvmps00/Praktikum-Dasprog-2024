@@ -1,4 +1,4 @@
-# Asistensi Modul 1 Praktikum Dasar Pemrograman
+# Asistensi Modul 4 Praktikum Dasar Pemrograman
 
 <img src="https://www.its.ac.id/komputer/wp-content/uploads/sites/28/2018/03/image10.png" alt="Teknik Komputer ITS" width="150" height="150">
 
@@ -34,9 +34,18 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
    - Error Handling: Pastikan program memiliki error handling untuk kondisi seperti alokasi memori yang gagal atau file yang tidak ditemukan.
    
-      __Input__: Satu baris yang berisi satu bilangan bulat.
+      __Input__:
+  
+      - Jumlah pengguna `N`.
+      - Data pengguna berupa `nama`, `ID`, `level akses`, dan `status` untuk setiap pengguna.
+      - Pilihan untuk melakukan sorting, pencarian, atau pembaruan data.
 
-      __Output__: Tampilkan bilangan bulat tersebut.
+      __Output__:
+
+      - Data yang diurutkan berdasarkan `ID`.
+      - Hasil pencarian pengguna berdasarkan `ID`.
+      - Total pengguna dengan status "Active".
+      - Penyimpanan data ke file dengan `ID` yang telah dienkripsi.
 
    __Contoh Input__:`42`
 
