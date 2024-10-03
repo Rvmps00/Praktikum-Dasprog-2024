@@ -83,9 +83,9 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk melatih mahasi
          
          Data disimpan ke dalam file "database_matrix.txt" dengan ID yang telah dienkripsi.
 
-2. **Matrix Mastermind: Operasi Matriks dengan Pointer ke Pointer**
+2. **Matrix Flex: Menaklukkan Operasi Matriks Dinamis dengan Double Pointer**
 
-   Buat program yang melakukan operasi penjumlahan dan perkalian dua matriks dinamis yang dialokasikan menggunakan pointer ke pointer (double pointer). Program harus meminta ukuran matriks dan mengelola memori secara dinamis. Pastikan hasil operasi ditampilkan dengan benar.
+   Kamu diminta untuk merancang algoritma yang dapat mengelola dan melakukan operasi matriks secara efisien. Dalam tantangan ini, buat program C yang memanfaatkan double pointer untuk mengelola matriks dinamis. Program ini harus bisa menerima input ukuran matriks, melakukan penjumlahan dan perkalian, serta memastikan hasil ditampilkan dengan benar. Sebagai programmer berpengalaman, kamu akan mengeksplorasi pengelolaan memori dinamis dan manipulasi data matriks yang fleksibel, menciptakan solusi optimal untuk operasi matriks di sistem ini.
 
    __Input__:
    
@@ -117,7 +117,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk melatih mahasi
        
 3. **Recursive Tower: Implementasi Tower of Hanoi dengan Rekursi**
 
-   Buat program yang menyelesaikan masalah Tower of Hanoi dengan menggunakan rekursi. Program harus menampilkan setiap langkah pemindahan cakram dari satu tiang ke tiang lain. Program juga harus menghitung berapa banyak langkah yang dibutuhkan untuk memindahkan seluruh cakram.
+   Dalam sebuah dunia penuh teka-teki, kamu diminta untuk memecahkan masalah klasik Tower of Hanoi menggunakan kekuatan rekursi. Sebagai programmer handal, tugasmu adalah merancang program C yang mampu memindahkan cakram dari satu tiang ke tiang lain secara efisien. Programmu akan menampilkan setiap langkah pemindahan cakram dengan jelas, sembari menghitung berapa banyak langkah yang dibutuhkan untuk menyelesaikan tantangan ini. Bisakah kamu memecahkan misteri ini dan mengoptimalkan setiap gerakan dengan sempurna?
 
    __Input__:
    
