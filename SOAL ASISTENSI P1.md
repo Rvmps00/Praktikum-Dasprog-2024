@@ -10,7 +10,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 1. **Printf vs Scanf: Siapa yang Lebih Kuat?**
 
-   Mari kenali kekuatan dua fungsi dasar ini! Kamu akan belajar perbedaan mendasar antara `printf` dan `scanf` dengan mengimplementasikannya dalam kode yang simpel namun powerful.
+   Kenali esensi dari dua fungsi inti ini: printf untuk output, dan scanf untuk input. Implementasikan keduanya dalam kode sederhana, pahami perbedaan mendasarnya, dan optimalkan interaksi I/O dalam programmu.
    
       __Input__: Satu baris yang berisi satu bilangan bulat.
 
@@ -23,7 +23,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 2. **Data Entry Aman: Nama, NRP, dan Umur Tanpa Drama!**
 
-   Buat program yang tidak hanya menerima data, tetapi juga memastikan data yang dimasukkan benar. Jika umur yang diinput negatif, programmu harus bisa menolaknya dengan elegan. Pastikan tidak ada kesalahan dalam informasi data diri!
+   Kembangkan program yang tidak hanya menerima input, tetapi juga melakukan validasi data dengan cermat. Sebagai programmer yang teliti, pastikan umur yang diinput tidak negatif—programmu harus menolak input tersebut secara elegan. Tujuan akhirnya adalah memastikan data diri yang dimasukkan bebas dari kesalahan.
 
    __Input__:
    
@@ -70,7 +70,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 4. **Ganjil atau Genap: Siapakah Kamu?**
 
-   Cuma satu angka, tapi dia bisa menentukan apakah kamu berada di sisi ganjil atau genap. Buat program sederhana yang memutuskan apakah sebuah bilangan adalah ganjil atau genap. Yuk, buktikan kekuatan logika sederhana ini!
+   Hanya dengan satu angka, kamu bisa tahu di mana posisimu: ganjil atau genap. Buat program sederhana yang mampu menentukan apakah sebuah bilangan adalah ganjil atau genap. Sederhana, namun logika ini akan menunjukkan kekuatannya.
 
    __Input__: Satu baris yang berisi satu bilangan bulat.
 
