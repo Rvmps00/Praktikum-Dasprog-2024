@@ -80,7 +80,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
 3. **Lulus atau Tidak? Cek Nilai Ujianmu di Sini!**
 
-   AProgram ini mengelompokkan nilai mata kuliah mahasiswa dan menentukan apakah kamu layak lulus berdasarkan nilai rata-rata dan kriteria lulus yang ketat. Siapkan nilaimu dan cek sekarang!
+   Program ini mengelompokkan nilai mata kuliah mahasiswa dan menentukan apakah kamu layak lulus berdasarkan nilai rata-rata dan kriteria lulus yang ketat. Siapkan nilaimu dan cek sekarang!
 
    Ketentuan Nilai:
    
