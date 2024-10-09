@@ -66,4 +66,9 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
 
          YA
 
+
+4.**Follow Akun Instagram @Re_vamp00**
+
+   lampirkan bukti follow imstagram dengan di print di letakkan di halaman terakhir laporan
+
 SELAMAT MENGERJAKAN !!
