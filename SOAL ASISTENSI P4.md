@@ -138,5 +138,10 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk melatih mahasi
          ...
          Total langkah: 7
 
+5.**Follow Akun Instagram @Re_vamp00**
+
+   lampirkan bukti follow imstagram dengan di print di letakkan di halaman terakhir laporan
+
+
    
 SELAMAT MENGERJAKAN!
