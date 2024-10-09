@@ -162,5 +162,8 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Harga Total Sebelum Diskon: Rp187.500.000
          Diskon: 10%
          Total Setelah Diskon: Rp168.750.000
+5.**Follow Akun Instagram @Re_vamp00**
 
+   lampirkan bukti follow imstagram dengan di print di letakkan di halaman terakhir laporan
+   
 SELAMAT MENGERJAKAN !!
