@@ -78,7 +78,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Total Setelah Diskon: Rp2.250.000
          Tidak ada kode promo.
 
-3. **Lulus atau Tidak? Cek Nilai Ujianmu di Sini!**
+2. **Lulus atau Tidak? Cek Nilai Ujianmu di Sini!**
 
    Program ini mengelompokkan nilai mata kuliah mahasiswa dan menentukan apakah kamu layak lulus berdasarkan nilai rata-rata dan kriteria lulus yang ketat. Siapkan nilaimu dan cek sekarang!
 
@@ -124,7 +124,7 @@ Soal-soal yang diberikan dalam sesi asistensi ini dirancang untuk membantu mahas
          Rata-rata: 63.0
          Status: TIDAK LULUS
 
-4. **Crazy Deals: Diskon Gede-Gedean di Toko Elektronikmu!**
+3. **Crazy Deals: Diskon Gede-Gedean di Toko Elektronikmu!**
 
    Dapatkan penawaran diskon gila-gilaan dengan jumlah barang yang kamu beli. Semakin banyak, semakin besar diskonmu! Masukkan pesananmu dan hitung diskon yang bakal kamu dapatkan.
 
